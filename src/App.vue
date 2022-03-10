@@ -3,14 +3,15 @@
 </template>
 
 <script>
+import { defineComponent } from "vue";
 import IndexPage from "./views/index/index";
 
-export default {
+export default defineComponent({
   name: "App",
   components: {
     IndexPage,
   },
-};
+});
 </script>
 
 <style>

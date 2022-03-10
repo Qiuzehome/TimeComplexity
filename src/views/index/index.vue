@@ -3,12 +3,16 @@
     <canvas id="cv"></canvas>
   </div>
 </template>
-<script>
-export default {
+<script lang='ts'>
+import { defineComponent } from "vue";
+export default defineComponent({
   data() {
     return {};
   },
-};
+  mounted() {
+    let a: string = "a";
+  },
+});
 </script>
 <style lang="less" scoped>
 .index-page {
